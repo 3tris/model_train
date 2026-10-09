@@ -1,0 +1,22 @@
+artifact_path: file:E:/work/SIC_TASKS/task_36_MLops/artifacts/1/models/m-b6fee7d2b7ce45adafc18d955ad4db4a/artifacts
+flavors:
+  python_function:
+    data: model.ubj
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.xgboost
+    python_version: 3.14.7
+  xgboost:
+    code: null
+    data: model.ubj
+    model_class: xgboost.core.Booster
+    model_format: ubj
+    xgb_version: 3.4.1
+mlflow_version: 3.17.0
+model_id: m-b6fee7d2b7ce45adafc18d955ad4db4a
+model_size_bytes: 117393
+model_uuid: m-b6fee7d2b7ce45adafc18d955ad4db4a
+prompts: null
+run_id: eb3908d70a8341dca997ae22e023a3a6
+utc_time_created: '2026-10-09 11:49:51.256309'
